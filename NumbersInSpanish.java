@@ -4,29 +4,20 @@ public class NumbersInSpanish {
        int number = Integer.parseInt(args[0]); 
  
        // delete the line below and replace with your code
-       if (number == 1)
+       switch (number)
        {
-        System.out.println("Uno");
+            case 1:
+                System.out.println("Uno");break;
+            case 2:
+                System.out.println("Dos");break;
+            case 3:
+                System.out.println("Tres");break;
+            case 4:
+                System.out.println("Cuatro");break;
+            case 5:
+                System.out.println("Cinco");break;
+            default:
+                System.out.println("I dont know what you said, good bye!");
        }
-       else if (number == 2)
-       {
-        System.out.println("Dos");
-       }
-       else if (number == 3)
-       {
-        System.out.println("Tres");
-       }
-       else if (number == 4)
-       {
-        System.out.println("Cuatro");
-       }
-       else if (number == 5)
-        {
-            System.out.println("Cinco");
-        }
-        else
-        {
-            System.out.println("Sorry, I do not know that!");
-        }
     }
  }
